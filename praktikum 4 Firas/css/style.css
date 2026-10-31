@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 15px;
+    color: #000;
+}
+
+/* Kotak Header Utama */
+.header-box {
+    background-color: #6c5ce7;
+    padding: 15px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.header-box h1 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Kotak Quote Kuning */
+.quote-box {
+    background-color: #8b6724;
+    color: #6d5690;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+/* Menu Navigasi */
+.nav-menu {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.nav-menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Pengaturan Gambar Burung Berjajar */
+.img-container {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.img-container img {
+    width: 160px;
+    height: 120px;
+    object-fit: cover;
+    margin: 0 5px;
+    border: 1px solid #c11571;
+    border-radius: 4px;
+}
+
+/* Efek Huruf Besar di Paragraf Pertama (Drop Cap) */
+.first-letter {
+    font-size: 45px;
+    float: left;
+    line-height: 35px;
+    padding-right: 5px;
+    color: #aa1c20;
+    font-weight: bold;
+}
+
+/* Paragraf Rata Kanan-Kiri */
+p {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+h3 {
+    margin-top: 20px;
+}
